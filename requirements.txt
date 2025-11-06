@@ -1,2 +1,6 @@
 streamlit
+opencv-python-headless
+mediapipe-silicon==0.9.3
 numpy
+Pillow
+simpleaudio
