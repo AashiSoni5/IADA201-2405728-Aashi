@@ -1,6 +1,7 @@
 streamlit
-opencv-python-headless
-mediapipe-silicon==0.9.3
+opencv-python-headless==4.10.0.84
+mediapipe==0.10.14
 numpy
 Pillow
 simpleaudio
+protobuf==3.20.*
