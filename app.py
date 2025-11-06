@@ -6,14 +6,9 @@ import utils
 import time
 import threading
 from utils import DrowsinessDetector
+import mediapipe as mp
 from PIL import Image
 import time
-
-class MockFaceMesh:
-    def process(self, img):
-        return None
-mp = type("mp", (), {"solutions": type("s", (), {"face_mesh": MockFaceMesh})})()
-
 
 st.set_page_config(page_title="Driver Drowsiness Detection", layout="wide")
 
